@@ -7,8 +7,11 @@ h2 {
 }
 
 
-body, html {
-    height: 100%;
+body, html{
+    background: black;
+    color: white;
+    height: 100%
+
 }
 
 /* The hero image */
@@ -31,3 +34,10 @@ body, html {
   color: white;
 }
 
+.std{
+    color:white;
+}
+.text{
+    color: purple;
+    background: red;
+}
