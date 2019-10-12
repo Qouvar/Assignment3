@@ -1,0 +1,28 @@
+.ui-menu {
+    font-family: 'roboto';font-size: 20px;
+    width: 500px; 
+    margin: 20px
+}
+}
+
+
+
+
+
+
+
+
+
+::active{
+    background: brown
+}
+.ui-state-active:hover{
+    background: rgb(25, 206, 25)
+}
+
+.ui-state-active:hover a{
+    background: rgb(25, 206, 25)
+}
+.ui-menu { width: 150px;
+    background-color: white
+}
