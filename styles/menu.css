@@ -1,11 +1,21 @@
-.ui-menu {
-    font-family: 'roboto';font-size: 20px;
-    width: 200px; 
-    margin: 30px;
-    
+html{
+    color: white;
+    background: black;
 }
 
-a {
+.ui-widget.ui-widget-content{
+    border: 1px transparent;
+}
+.ui-menu {
+    font-family: 'roboto';
+    font-size: 20px;
+    width: 200px; 
+    margin: 30px;
+    position: absolute;
+}
+
+.ui-widget-content a {
+    color: white;
     text-decoration: none;
 }
     
