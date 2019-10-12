@@ -9,7 +9,7 @@ h2 {
 
 
 body, html{
-    background: rgb(43, 27, 27);
+    background: "swatch";
     color: white;
     height: 100%
 
@@ -18,8 +18,8 @@ body, html{
 /* hero image */
 .hero-image {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7)), url("../images/mountcookheader1.jpg");
-    height: 35%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url("../images/mountcookheader1.jpg");
+    height: 40%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
