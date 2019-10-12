@@ -14,6 +14,7 @@
     <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
     <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
     <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
     <script src='./scripts/menu.js'></script>
     <link rel='stylesheet' href='./styles/main.css'>
     <link rel='stylesheet' href='./styles/menu.css'>
@@ -28,6 +29,30 @@
 </head>
 
 <!-- menu -->
+<div class="toggle-button">
+  <div class="wrapper">
+    <div class="menu-bar menu-bar-top"></div>
+    <div class="menu-bar menu-bar-middle"></div>
+    <div class="menu-bar menu-bar-bottom"></div>
+  </div>
+</div>
+
+<div class="menu-wrap">
+  <div class="menu-sidebar">
+    <ul class="menu">
+      <li> <a href="#">Home</a></li>
+      <li> <a href="#">About</a></li>
+      <li> <a href="#">Blog</a></li>
+      <li class="menu-item-has-children"><a href="#">Click The Arrow</a></li>
+      <span class="sidebar-menu-arrow"></span>
+      <ul class="sub-menu">
+        <li><a href="#">Alignment</a></li>
+        <li><a href="#">Markup</a></li>
+        <li><a href="#">Comments</a></li>
+      </ul>
+    </ul>
+  </div>
+</div>
 <nav>
   <ul id="menu">
         <li><div>Attractions</div>
