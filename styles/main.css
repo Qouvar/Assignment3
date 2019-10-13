@@ -7,6 +7,20 @@ h2 {
     font-family: 'Bungee';font-size: 30px;
 }
 
+body, html{
+    color: white;
+    height: 100%;
+}
+
+#centreimage {
+    width:500px;
+    
+}
+
+#top-padding {
+    padding-top: 40px;
+}
+
 .sideimage {
     width:500px; 
     padding-top: 30px; 
@@ -25,7 +39,7 @@ h2 {
   }
 
 .sidenav{
-    height: 102.5%; 
+    height: 100%; 
     width: 200px; 
     position: absolute; 
     top: 40%; 
@@ -34,11 +48,7 @@ h2 {
     
   }
 
-body, html{
-    color: white;
-    height: 100%;
-   
-}
+
 
 
 /* hero image */
