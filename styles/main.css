@@ -12,8 +12,9 @@ body, html{
     height: 100%;
 }
 
-#centreimage {
-    width:500px;
+#image {
+    width: 1080px;
+    
     
 }
 
@@ -21,6 +22,11 @@ body, html{
     padding-top: 40px;
 }
 
+#myFooter {
+    z-index: 1;
+}
+
+/* ---- side image ---- */
 .sideimage {
     width:500px; 
     padding-top: 30px; 
@@ -38,8 +44,8 @@ body, html{
     
   }
 
-.sidenav{
-    height: 100%; 
+.sidenav-left{
+    height: 810px; 
     width: 200px; 
     position: absolute; 
     top: 40%; 
@@ -48,10 +54,7 @@ body, html{
     
   }
 
-
-
-
-/* hero image */
+/* ---- hero image ---- */
 .hero-image {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url("../images/mountcookheader1.jpg");
