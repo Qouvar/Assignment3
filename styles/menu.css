@@ -10,7 +10,7 @@ a {
 }
     
 .ui-state-active {
-    background: red !important;
+    background: rgba(255, 0, 0, 0.301) !important;
 }
 .ui-widget-content .ui-state-active{
     border: 1px solid red;

@@ -18,8 +18,10 @@ $( function() {
     var red = $( "#red" ).slider( "value" ),
       green = $( "#green" ).slider( "value" ),
       blue = $( "#blue" ).slider( "value" ),
-      hex = hexFromRGB( red, green, blue );
-    $( "#swatch" ).css( "background-color", "#" + hex );
+      hex = "#" + hexFromRGB( red, green, blue );
+    $( "#swatch" ).css( "background-color", hex );
+    changeBodyBg(hex);
+  
   }
 
 
@@ -38,6 +40,6 @@ $( function() {
 
 //background colour picker
 function changeBodyBg(color){
-        document.body.style.backgroundColor = color;
+        document.body.style.background = color;
     }
 
