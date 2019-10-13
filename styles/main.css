@@ -7,16 +7,39 @@ h2 {
     font-family: 'Bungee';font-size: 30px;
 }
 
-
-w3-row w3-padding-64 {
-    padding-left: 10%;
+.sideimage {
+    width:500px; 
+    padding-top: 30px; 
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
+
+.sidenav-right {
+    height: auto; 
+    width: auto; 
+    position: absolute; 
+    top: 40%; 
+    right: 0px;
+    background-color: #111; 
+    
+  }
+
+.sidenav{
+    height: 102.5%; 
+    width: 200px; 
+    position: absolute; 
+    top: 40%; 
+    left: 0px;
+    background-color: #111; 
+    
+  }
 
 body, html{
     color: white;
     height: 100%;
-    
+   
 }
+
 
 /* hero image */
 .hero-image {

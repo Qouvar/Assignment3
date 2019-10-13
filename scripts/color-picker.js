@@ -41,5 +41,6 @@ $( function() {
 //background colour picker
 function changeBodyBg(color){
         document.body.style.background = color;
+        document.body.style.background = color;
     }
 
