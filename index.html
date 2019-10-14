@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Mount Cook</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bungee'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel='stylesheet' href='./styles/color-picker.css'>
+
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
     <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
     <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
     <script src='./scripts/menu.js'></script>
     <link rel='stylesheet' href='./styles/main.css'>
-    <link rel='stylesheet' href='./styles/menu.css'>
     <script src='./scripts/color-picker.js'></script>
+    <script src='./scripts/youtubeplayer.js'></script>
 
     <!--Banner-->
     <div class="hero-image">
@@ -38,7 +38,7 @@
         <li>-</li>
         <li><div>Attractions</div>
             <ul>
-                <li><div><a href='PLACEHOLDER'>Things to do</a></div></li>
+                <li><div><a href='./things-to-do/index.html'>Things to do</a></div></li>
                 <li><div><a href='PLACEHOLDER'>Places to see</a></div></li>
             </ul>    
         </li>
@@ -52,6 +52,9 @@
 <body>
   <!-- Main content-->
   <div id="top-padding" class="w3-main" style="margin-left:250px">
+
+    <div class="youtube-home" id="player"></div>
+  
     <div class="w3-row">
       <div class="w3-twothird w3-container">
         <h2 class="w3-text-teal">The Park</h2>
@@ -59,30 +62,41 @@
           <p>Although Aoraki Mount Cook encompasses 23 peaks over 3000 metres high, it is very accessible. State Highway 80 leads to Aoraki/Mt Cook Village which is situated beside scenic Lake Pukaki and provides a comfortable base for alpine activities. Far from city lights, the stargazing here is magnificent - Aoraki Mount Cook National Park forms the majority of New Zealand's only International Dark Sky Reserve. Mountaineers regard the area to be the best climbing region in Australasia, while less skilled adventurers find plenty of satisfaction with the mountain walks that lead to alpine tarns, herb fields and spectacular glacier views. Encounters with cheeky kea (mountain parrots) are part of the fun.</p>        
       </div>
     </div>
+    
+      <div style="padding-left: 100px;">
+        <img class="image-inrow" src="images/Aoraki_Mount_Cook_National_Park_Banner.jpg" />
+      </div>
+    
       <div class="w3-row">
         <div class="w3-twothird w3-container">
           <h2 class="w3-text-teal">The Village</h2>
-          <p>Under the highest mountain in New Zealand, the Aoraki/Mount Cook alpine village sits amongst sky-scraping peaks, phenomenal glaciers, permanent snow and all beneath a stunning star-studded sky.</p>
-          <p>The village itself provides a range of accommodation from an international style hotel to motels, backpackers and camping.</p>
-          <p>Aoraki/Mount Cook National Park surrounds the village, which is in excess of 700km with glaciers covering 40% of the land.</p>
-          <p>The village is at the base of New Zealand’s highest mountain, Aoraki/Mount Cook. This dazzling peak, known to Māori as Aoraki or Cloud Piercer, is one of 28 mountains in this alpine backbone which peak at over 3,050 metres, and hundreds of others not far short of that all making up the famous Southern Alps.</p>
+            <p>Under the highest mountain in New Zealand, the Aoraki/Mount Cook alpine village sits amongst sky-scraping peaks, phenomenal glaciers, permanent snow and all beneath a stunning star-studded sky.</p>
+            <p>The village itself provides a range of accommodation from an international style hotel to motels, backpackers and camping.</p>
+            <p>Aoraki/Mount Cook National Park surrounds the village, which is in excess of 700km with glaciers covering 40% of the land.</p>
+            <p>The village is at the base of New Zealand’s highest mountain, Aoraki/Mount Cook. This dazzling peak, known to Māori as Aoraki or Cloud Piercer, is one of 28 mountains in this alpine backbone which peak at over 3,050 metres, and hundreds of others not far short of that all making up the famous Southern Alps.</p>
         </div>
       </div>
-        <div class="w3-third w3-container">
-          <p class="w3-center"> <img id="image" src="images/Aoraki_Mount_Cook_National_Park_Banner.jpg" /> </p>  
+     
+        <div class="container-inrow">
+          <img class="image-inrow" src="./images/newzealand_hookervalley_boardwalk.jpg" />
+          <img class="middle-img image-inrow" src="./images/mount-cook-national-park-63450.jpg"  />
+          <img class="image-inrow" src="./images/fixedw_large_4x.jpg" />
         </div>
-
-    <div class="w3-row w3-padding-64">
+     
+    <div class="w3-row w3-padding-32">
         <div class="w3-twothird w3-container">
-        <p>The village of Mount Cook - a comfortable haven in one of the most unforgiving parts of New Zealand.</p>
-
+          <p>The village of Mount Cook - a comfortable haven in one of the most unforgiving parts of New Zealand.</p>
           <p>Aoraki / Mount Cook National Park is an exceptionally beautiful place to visit. You don’t have to be a mountaineer to interact with the stunning scenery; there are various alpine walks beginning near the village, all about three hours return. Flightseeing, tours to the Tasman Glacier and stargazing are other ways to optimise your time here.</p>
         </div>
-
     </div>
 
+  
+    <div style="padding-bottom: 32px;"></div>
+
+    <!--right nav image-->
     <div class="sidenav-right"><img class="sideimage" src="images/Aoraki-Mount_Cook_(Mount_Cook_Village)-narrow1.jpg"/></div>
   </div>
+  
 <!--Footer-->
   <footer id="myFooter">
     <div class="w3-container w3-theme-l2 w3-padding-32">

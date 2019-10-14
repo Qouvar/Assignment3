@@ -1,10 +1,19 @@
 /* Font */
-html,body,h3,h4,h5,h6 {font-family: "Roboto", sans-serif, "Bungee";}
-h1 {
-    font-family: 'Bungee';font-size: 50px;
+html, body, h4, h5, h6 {
+    font-family: "Roboto", sans-serif, "Bungee";
 }
+
+h1, h2, h3 {
+    font-family: 'Bungee'; 
+    font-size: 50px;
+}
+
 h2 {
-    font-family: 'Bungee';font-size: 30px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 body, html{
@@ -12,21 +21,52 @@ body, html{
     height: 100%;
 }
 
-#image {
-    width: 1080px;
-    
-    
-}
-
+/* ---- misc IDs ---- */
 #top-padding {
     padding-top: 40px;
 }
 
-#myFooter {
-    z-index: 1;
+/*---- youtube ----*/
+.youtube-home {
+    width: 900px; 
+    height: 506px;
+    margin-left: 100px;
+    size: 20%;
 }
 
-/* ---- side image ---- */
+/*---- class text ----*/
+.text-link {
+    font-family: 'Bungee';
+    font-size: 20px;
+    color: #0b9485;
+}
+
+/* ---- individual images --- */
+.image-attractions {
+    height: 300px;
+    padding-left: 180px;
+}
+
+.text-underimage {
+    padding-left: 10px;
+    
+}
+
+/* ---- images in a row ---- */
+.container-inrow {
+    display:inline-block;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.image-inrow {
+    height: 220px;
+    padding: 5px;
+    
+}
+
+/* ---- side nav bars ---- */
 .sideimage {
     width:500px; 
     padding-top: 30px; 
@@ -41,7 +81,6 @@ body, html{
     top: 40%; 
     right: 0px;
     background-color: #111; 
-    
   }
 
 .sidenav-left{
@@ -51,7 +90,6 @@ body, html{
     top: 40%; 
     left: 0px;
     background-color: #111; 
-    
   }
 
 /* ---- hero image ---- */
@@ -73,3 +111,53 @@ body, html{
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/* ---- menu --- */
+.ui-menu {
+    font-family: 'roboto';font-size: 20px;
+    color: white;
+    width: 200px; 
+    background: rgb(53, 68, 59);
+}
+
+a {
+    text-decoration: none;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../images/ui-icons_ffffff_256x240.png");
+}
+
+.ui-state-active {
+    background: rgb(82, 122, 98) !important;
+}
+.ui-widget-content .ui-state-active{
+    border: 1px solid rgb(53, 68, 59);
+}
+.ui-widget-content a {
+    color: white;
+}
+.ui-widget.ui-widget-content {
+    border: thin;
+}
+
+/* ---- colour picker ---- */
+#red, #green, #blue, #hexcode {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+}
+#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+}
+#red .ui-slider-range { background: #ef2929; }
+#red .ui-slider-handle { border-color: #ef2929; }
+#green .ui-slider-range { background: #8ae234; }
+#green .ui-slider-handle { border-color: #8ae234; }
+#blue .ui-slider-range { background: #729fcf; }
+#blue .ui-slider-handle { border-color: #729fcf; }
