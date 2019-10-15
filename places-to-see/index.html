@@ -18,6 +18,8 @@
     <script src='../scripts/menu.js'></script>
     <link rel='stylesheet' href='../styles/main.css'>
     <script src='../scripts/color-picker.js'></script>
+    <script src='../scripts/maps.js'></script>
+    <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCNJj9ztWXuaaSkyxnlV3JHYbmiGga1rQ&callback=initMap' type='text/javascript'></script>
 
     <!--Banner-->
     <div class="hero-image">
@@ -37,91 +39,65 @@
         <li><div>Attractions</div>
             <ul>
                 <li><div><a href='../things-to-do/index.html'>Things to do</a></div></li>
-                <li><div><a href='../things-to-see/index.html'>Places to see</a></div></li>
+                <li><div><a href='../places-to-see/index.html'>Places to see</a></div></li>
             </ul>    
         </li>
-        <li><div><a href='PLACEHOLDER'>Accommodations</a></div></li>
+        <li><div><a href='../accommodations/index.html'>Accommodations</a></div></li>
         <li><div><a href='PLACEHOLDER'>Places to eat</a></div></li>   
   </ul>
 </div> 
 
 <body>
   <!-- Main content-->
-  <div id="top-padding" class="w3-main" style="margin-left:250px">
-
-    <div class="w3-row">
-      <div class="w3-twothird w3-container">
-        <h2 class="w3-text-teal" style="font-size: 40px;">Things to do</h2>       
-            <p>Mt Cook Village sits in the heart of the Aoraki Mt Cook National Park. While small, the village is the start of many adventures to explore New Zealand’s most extreme and most beautiful alpine environment. Mountains, glaciers, lakes, braided rivers, valleys, snow… It’s all here!</p>
-            <p>Question is, how are you going to make the most of your time here?</p>     
-        </div>
-    </div>
-    
-      <div class="w3-twothird w3-container">
-        <h2 class="w3-text-teal">Hiking Tracks</h2>
-          <p>As the highest mountain in New Zealand, Aoraki Mt Cook provides the backdrop to many super stunning hikes in the Canterbury region of the South Island.</p> 
+    <div id="top-padding" class="w3-main" style="margin-left:250px">
 
         <div class="w3-row">
-            <div class="w3-twothird w3-container">
-                    <h2 class="w3-text-teal" style="font-size: 20px;">Hooker Valley</h2>
-                <p>Starting in the White Horse Hill camping area, the Hooker Valley Track is one of the most popular hikes in the valley. The 3-hour track will take you to the best of the alpine scenery including the Hooker River and two swingbridges, including one of the most scenic bridges in the country, to finally reach the Hooker Glacier terminal lake.</p>
-            </div>
-            <div class="w3-twothird w3-container">
-                    <h2 class="w3-text-teal" style="font-size: 20px;">Governors bush walk</h2>
-                <p>The short loop walk should take just under 45 minutes. Taking you through beech forest up to a lookout point of the Southern Alps. Keep an eye out for native birds such as kea, the alpine parrot, and the cute fantail.</p>
-            </div>
-            <div class="w3-twothird w3-container">
-                    <h2 class="w3-text-teal" style="font-size: 20px;">Tasman Glacier View</h2>
-                <p>Frozen in winter, the Tasman Glacier lake is best visited in summer where giant icebergs break away and can be seen floating in the lake. To reach the lake, take the short Tasman Glacier View Track starting in the Blue Lakes car park. This is a simple pit stop in your journey as the track is only 1-hour return.</p>
-            </div>
-          
-        </div> 
-
-        <div class="container-inrow">
-                <img class="image-inrow" src="../images/AT51-Hooker-Valley-Mount-Cook-National-Park-Canterbury-Miles-Holden.jpg"/>
-                <p class="text-underimage">Hooker Valley</p>
-            </div>
-            <div class="container-inrow">
-                <img class="image-inrow" src="../images/hikes-around-mt-cook.jpg"/>
-                <p class="text-underimage">Governors Bush Walk</p>
-            </div>
-            <div class="container-inrow">
-                <img class="image-inrow" src="../images/1200px-Icebergs_in_Hooker_Glacier_Lake_in_front_of_Aoraki_Mount_Cook.jpg"/>
-                <p class="text-underimage">Tasman Glacier View</p>
-            </div>
-    </div>
-  
-    <div class="w3-row w3-padding-16">
         <div class="w3-twothird w3-container">
-            <h2 class="w3-text-teal">Helicopter Tours</h2>
-                <p>Always wanted to ride in a helicopter and see the world below you as you’ve never seen it before? This is your chance of doing that in one of the most beautiful places on Earth: Mount Cook. The Helicopter Line offers several different tours you can take around the region; you can choose to fly above the mountains, the glaciers, or all at once! This is a treat for the true adventurer so if you consider yourself one, book it now!</p>
-                <p>You can start your helicopter tour by <a class="text-link" href="https://www.helicopter.co.nz/english/tours/view/mount-cook-and-the-glaciers/" target="_blank">booking here</a>.</p>
+            <h2 class="w3-text-teal" style="font-size: 40px;">Places to see</h2>       
+                <p>Some must see places within the Aoraki/Mount Cook and Lake Tekapo region.</p>     
+            </div>
+        </div>
+        
+        <div class="w3-twothird w3-container">
+            <h2 class="w3-text-teal">The Church of the Good Shepherd</h2>
+            <p>The Church of the Good Shepherd is set on the beautiful shores of Lake Tekapo, surrounded by a stunning natural landscape. It was built as a memorial to the pioneers of Mackenzie Country and is now one of the most famous targets for photographers, although you aren’t allowed to take pictures inside. As a place of prayer and reflection, the Church of the Good Shepard should be respected and appreciated not only through a lens, but with your own eyes.</p> 
+            <div class="container-inrow">
+                <img class="image-attractions" src="../images/Patino_Tekapo-Church-morning-light.jpg"/>
+            </div>     
+        </div>
+    
+        <div class="w3-row w3-padding-16">
+            <div class="w3-twothird w3-container">
+                <h2 class="w3-text-teal">The lupin fields</h2>
+                    <p>The Mackenzie Country, where you’ll find Aoraki/Mt Cook, is blanketed by a stream of violet hues between the months of November and February – all thanks to the Russell lupins that flower by the shores of its lakes and rivers.</p>
+                <div style="padding-left: 70px;">
+                        <img class="image-inrow2" src="../images/137_Lupins_03-1600x533.jpg" />
+                </div>
+                <p>These roadside beauties are at their best and brightest around Lake Tekapo, and were apparently planted in the late 1940s simply to embellish the golden pastures.</p>
+
+            </div>
+
+        </div>
+
+        <div class="w3-row w3-padding-16">
+            <div class="w3-twothird w3-container">
+                <h2 class="w3-text-teal">Sir Edmund Hillary Alpine Centre</h2>
+                    <p>The Sir Edmund Hillary Alpine Centre is a 126-set theatre and planetarium, unique in the world. It is a tribute to Sir Edmund Hillary, one of the world’s greatest explorers, and to the Aoraki Mount Cook region and its people. As you enter the theatre, you’ll find a small museum showcasing the history of the Mount Cook region and learn a little bit more about the extraordinary place you’re visiting.</p>
+                    <p>Don’t forget to stop by!</p>
                 
-            <div style="padding-left: 70px;">
-                    <img class="image-attractions" src="../images/The-Helicopter-Line-Mount-Cook-Snow-Landing.jpg" />
+                <div class="container-inrow">
+                    <img class="image-attractions" src="../images/hillary statue 003 web_Landscape.jpg" />
+                </div>
             </div>
         </div>
 
+        <div class="sidenav-right"><img class="sideimage" src="../images/While-Shepherds-Watched-Night-Sky-Star-Astro-Photography-Guide-Paul-Reiffer-Professional-Photographer-Church-Of-Good-Shepherd-Lake-Tekapo-Milky-Way-How-To-New-Zeala-narrow.jpg"/></div>
+
+        <h2 class="w3-text-teal">Locations</h2>
+        <div id='map1'></div>
     </div>
 
-    <div class="w3-row w3-padding-16">
-      <div class="w3-twothird w3-container">
-        <h2 class="w3-text-teal">Glacier Tours</h2>
-          <p>Combine the excitement of walking on New Zealand’s biggest glacier with the thrill of breathtaking scenic helicopter fly-bys of New Zealand’s largest mountain, Aoraki/Mt Cook. You will fly in to your drop off point on a remote part of the glacier.</p>
-          <p>In summer, your guide will outfit you with special ice spikes for your feet, called crampons, designed for hard ice glacier conditions. During the winter months, you will be able to use crampons, try snowshoeing or a combination of both.</p>
-          <p>Once your crampons or snowshoes are fitted you’ll go exploring the amazing ice formations, following your guide as they cut steps in the glacier, using skills handed down from NZ’s mountain pioneers.</p>
-          <p>As the glacier is changing all the time our experienced guides are always finding something new and interesting to show our visitors. Time on the ice is up to 2 hours, weather permitting.</p> 
-          <p>You can start your glacier adventure by <a class="text-link" href="https://www.mtcookguides.co.nz/?gclid=Cj0KCQjwuZDtBRDvARIsAPXFx3CbNO-0a6r5fgOhAiDR9-42fFkc971cvRiXYOf629C5tckEv2CH5gMaAvwZEALw_wcB" target="_blank">booking here</a>.</p>
-      
-        <div style="padding-left: 110px;" class="container-inrow">
-          <img class="image-inrow2" src="../images/featured-snow-shoe.jpg" />
-          <img class="image-inrow2" src="../images/Mt-Cook-Glacier-Guiding-Heli-Hike-00022.jpg" />
-        </div>
-      </div>
-    </div>
-
-    <div class="sidenav-right"><img class="sideimage" src="../images/Mt-Cook-Surrounding-regionsnarrow1.jpg"/></div>
-  </div>
+  
 
 <!--Footer-->
   <footer id="myFooter">

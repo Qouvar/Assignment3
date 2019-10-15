@@ -40,7 +40,11 @@ body, html{
     font-size: 20px;
     color: #0b9485;
 }
-
+.text-marker {
+    font-family: "Bungee";
+    font-size: 60px;
+    color: red;
+}
 /* ---- individual images --- */
 .image-attractions {
     height: 300px;
@@ -51,7 +55,9 @@ body, html{
     padding-left: 10px;
     
 }
-
+.stars {
+    height: 20px;
+}
 /* ---- images in a row ---- */
 .container-inrow {
     display:inline-block;
@@ -167,8 +173,13 @@ a {
 #blue .ui-slider-handle { border-color: #729fcf; }
 
 /* ---- Google maps ---- */
-#map {
+#map1 {
     height: 400px;
     width: 1000px;
     margin-bottom: 50px;
-   }
+}
+#map2 {
+height: 400px;
+width: 1000px;
+margin-bottom: 50px;
+}
