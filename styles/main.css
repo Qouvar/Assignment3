@@ -65,7 +65,11 @@ body, html{
     padding: 5px;
     
 }
-
+.image-inrow2 {
+    height: 300px;
+    padding: 5px;
+    
+}
 /* ---- side nav bars ---- */
 .sideimage {
     width:500px; 
@@ -161,3 +165,10 @@ a {
 #green .ui-slider-handle { border-color: #8ae234; }
 #blue .ui-slider-range { background: #729fcf; }
 #blue .ui-slider-handle { border-color: #729fcf; }
+
+/* ---- Google maps ---- */
+#map {
+    height: 400px;
+    width: 1000px;
+    margin-bottom: 50px;
+   }
