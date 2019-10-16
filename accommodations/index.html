@@ -1,125 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Mount Cook</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bungee'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
-    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
-    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
-    <script src='../scripts/menu.js'></script>
-    <link rel='stylesheet' href='../styles/main.css'>
-    <script src='../scripts/color-picker.js'></script>
-    <script src='../scripts/map2.js'></script>
-    <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCNJj9ztWXuaaSkyxnlV3JHYbmiGga1rQ&callback=initMap' type='text/javascript'></script>
-
-    <!--Banner-->
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1>Mount Cook Village</h1>
-            <p>And a big honkin' mountain</p>
-        </div>
-    </div>
+  <title>Accommodations</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bungee'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+  <link rel='stylesheet' href='../styles/main.css'>
+  <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+  <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+  <script src='../scripts/color-picker.js'></script>
+  <script src='../scripts/map2.js'></script>
+  <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCNJj9ztWXuaaSkyxnlV3JHYbmiGga1rQ&callback=initMap'></script>
 </head>
 
-<!-- menu -->
-<div class="sidenav-left">
-  <ul id="menu">
-        <li><div><a href='../index.html'>Home</a></div></li>
-        <li><div><a href='../mountain/index.html'>The Mountain</a></div></li>
-        <li>-</li>
-        <li><div>Attractions</div>
-            <ul>
-                <li><div><a href='../things-to-do/index.html'>Things to do</a></div></li>
-                <li><div><a href='../places-to-see/index.html'>Places to see</a></div></li>
-            </ul>    
-        </li>
-        <li><div><a href='../accommodations/index.html'>Accommodations</a></div></li>
-        <li><div><a href='../places to eat/index.html'>Places to eat</a></div></li>   
-  </ul>
-</div> 
-
 <body>
+  <!--Banner-->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Mount Cook Village</h1>
+      <p>And a big honkin' mountain</p>
+    </div>
+  </div>
+
+
+  <!-- menu -->
+  <div class="sidenav-left">
+    <ul id="menu">
+      <li><div><a href='../index.html'>Home</a></div></li>
+      <li><div><a href='../mountain/index.html'>The Mountain</a></div></li>
+      <li>-</li>
+      <li><div>Attractions</div>
+        <ul>
+          <li><div><a href='../things_to_do/index.html'>Things to do</a></div></li>
+          <li><div><a href='../places_to_see/index.html'>Places to see</a></div></li>
+        </ul>    
+      </li>
+      <li><div><a href='../accommodations/index.html'>Accommodations</a></div></li>
+      <li><div><a href='../places_to_eat/index.html'>Places to eat</a></div></li>
+    </ul>
+  </div> 
+
   <!-- Main content-->
-    <div id="top-padding" class="w3-main" style="margin-left:250px">
-
-        <div class="w3-row">
-        <div class="w3-twothird w3-container">
-            <h2 class="w3-text-teal" style="font-size: 40px;">Accommodations</h2>       
-                <p>Some great accommodation options found right inside the Mount Cook Village.</p>     
-            </div>
-        </div>
-        
-        <!-- map -->
-        <h2 class="w3-text-teal">Locations</h2>
-        <div id='map2'></div>
-       
-
+  <div id="top-padding" class="w3-main" style="margin-left:250px">
     <div class="w3-row">
-        <div class="w3-twothird w3-container">
-            <h2 class="w3-text-teal"><span class="text-marker">A.</span> YHA Aoraki Mt Cook Backpackers</h2>
-            <img class="stars" src="../images/Star_rating_4_of_5.png" />
-                <p>Situated Among the Southern Alps, YHA Mt Cook features views of Mount Cook, and is 200 m from Sir Edmund Hillary Alpine Centre. It offers affordable accommodation with a seasonal barbecue area, a self-catering guest kitchen and free access to a sauna room.</p>
-                <p>Guests can choose to stay in a lively dormitory room or in the comfort of a private room. Toilet and bathroom facilities are shared. Up to 2GB of free WiFi is available for guests.</p>
-                <p>There is a lounge area with a fireplace where guests can enjoy TV programs/movies. Self-service laundry facilities are available.</p>
-                <p>Mt Cook YHA is a 20-minute drive from a variety of dining options in Mount Cook Township. Timaru Airport is a 2.5-hour drive away.</p>
-                <p>You can go walking, mountaineering, kayaking, skiing, boating, scenic flying and stargazing in the surrounding areas. A tour desk can help you plan your day.</p>
-                <p><a class="text-link" href="http://www.booking.com/Share-q4nD1U" target="_blank">Book here</a></p>
-                
-                <div class="container-inrow">
-                    <img style="height: 400px;" class="image-attractions" src="../images/37289108.jpg"/>
-                    <figcaption style= "padding-left: 180px">booking.com</figcaption>
-                </div>
-               
-        </div>
-    
-        <div class="w3-row w3-padding-16">
-            <div class="w3-twothird w3-container">
-                    <h2 class="w3-text-teal"><span class="text-marker">B.</span> Aoraki Mt Cook Alpine Lodge</h2>
-                    <img class="stars" src="../images/Star_rating_4_of_5.png" />
-                    <p>Situated in Mount Cook National Park and offering beautiful mountain views, Aoraki Mount Cook Alpine Lodge is a 5-minute walk from Sir Edmund Hillary Alpine Centre. It offers guests 1GB of free WiFi per room, a self-catering kitchen and BBQ facilities.</p>
-                    <p>The tour desk can book helicopter and ski plane flights for those seeking an adventure. You can relax in the guest lounge area which offers a warming fireplace and lovely views from the deck. A communal dining area can be found on site.</p>
-                    <p>All rooms are heated and feature a flat-screen TV and an en suite bathroom with free toiletries and a hairdryer. Most rooms offer mountain views.</p>
-                    <p>Aoraki Mount Cook Alpine Lodge is a 1-minute walk from Aoraki Mt Cook National Park Visitor Centre. It is 11 minutes' walk from the start of Hooker Valley Walking Track.</p>
+      <div class="w3-twothird w3-container">
+        <h2 class="w3-text-teal" style="font-size: 40px;">Accommodations</h2>       
+          <p>Some great accommodation options found right inside the Mount Cook Village.</p>     
+      </div>
+    </div>
         
-                    <p><a class="text-link" href="http://www.booking.com/Share-9w4dl0" target="_blank">Book here</a></p>
-                    <div class="container-inrow">
-                        <img style="height: 400px;" class="image-attractions" src="../images/122809209.jpg" />
-                        <figcaption style= "padding-left: 180px">booking.com</figcaption>
-                    </div>
-                
-            </div>
+    <!-- map -->
+    <h2 class="w3-text-teal">Locations</h2>
+    <div id='map2'></div>
+       
+    <div class="w3-row">
+      <div class="w3-twothird w3-container">
+        <h2 class="w3-text-teal"><span class="text-marker">A.</span> YHA Aoraki Mt Cook Backpackers</h2>
+          <img class="stars" src="../images/Star_rating_4_of_5.png" alt="4 out of 5 stars" />
+            <p>Situated Among the Southern Alps, YHA Mt Cook features views of Mount Cook, and is 200 m from Sir Edmund Hillary Alpine Centre. It offers affordable accommodation with a seasonal barbecue area, a self-catering guest kitchen and free access to a sauna room.</p>
+            <p>Guests can choose to stay in a lively dormitory room or in the comfort of a private room. Toilet and bathroom facilities are shared. Up to 2GB of free WiFi is available for guests.</p>
+            <p>There is a lounge area with a fireplace where guests can enjoy TV programs/movies. Self-service laundry facilities are available.</p>
+            <p>Mt Cook YHA is a 20-minute drive from a variety of dining options in Mount Cook Township. Timaru Airport is a 2.5-hour drive away.</p>
+            <p>You can go walking, mountaineering, kayaking, skiing, boating, scenic flying and stargazing in the surrounding areas. A tour desk can help you plan your day.</p>
+            <p><a class="text-link" href="http://www.booking.com/Share-q4nD1U" target="_blank">Book here</a></p>
+        <figure class="container-inrow">
+          <img style="height: 400px;" class="image-attractions" src="../images/37289108.jpg" alt="view of the backpackers building" />
+          <figcaption style= "padding-left: 180px">booking.com</figcaption>
+        </figure>
+      </div>
+    
+      <div class="w3-row w3-padding-16">
+        <div class="w3-twothird w3-container">
+          <h2 class="w3-text-teal"><span class="text-marker">B.</span> Aoraki Mt Cook Alpine Lodge</h2>
+            <img class="stars" src="../images/Star_rating_4_of_5.png" alt="4 out of 5 stars" />
+              <p>Situated in Mount Cook National Park and offering beautiful mountain views, Aoraki Mount Cook Alpine Lodge is a 5-minute walk from Sir Edmund Hillary Alpine Centre. It offers guests 1GB of free WiFi per room, a self-catering kitchen and BBQ facilities.</p>
+              <p>The tour desk can book helicopter and ski plane flights for those seeking an adventure. You can relax in the guest lounge area which offers a warming fireplace and lovely views from the deck. A communal dining area can be found on site.</p>
+              <p>All rooms are heated and feature a flat-screen TV and an en suite bathroom with free toiletries and a hairdryer. Most rooms offer mountain views.</p>
+              <p>Aoraki Mount Cook Alpine Lodge is a 1-minute walk from Aoraki Mt Cook National Park Visitor Centre. It is 11 minutes' walk from the start of Hooker Valley Walking Track.</p>
+              <p><a class="text-link" href="http://www.booking.com/Share-9w4dl0" target="_blank">Book here</a></p>
+          <figure class="container-inrow">
+            <img style="height: 400px;" class="image-attractions" src="../images/122809209.jpg" alt="front of alpine lodge building" />
+            <figcaption style= "padding-left: 180px">booking.com</figcaption>
+          </figure>
         </div>
+      </div>
 
-        <div class="w3-row w3-padding-16">
-            <div class="w3-twothird w3-container">
-                    <h2 class="w3-text-teal"><span class="text-marker">C.</span> The Hermitage Hotel</h2>
-                    <img class="stars" src="../images/Star_rating_4_of_5.png" />
-                    <p>Set in Mount Cook National Park, The Hermitage Hotel features a range of rooms and suites all offering majestic mountain views, and most with views of Mount Cook. Guests can enjoy a range of onsite dining and bars, and free WiFi is offered in the Snowline Lounge and Sir Edmund Hillary Cafe.</p>                    
-                    <p>All rooms feature an ensuite bathroom including a shower, free toiletries and hairdryer. Some rooms offer a bath tub. Also included in each room is a satellite flat-screen TV, refrigerator and tea and coffee making facilities. In-room WiFi is available for an additional charge.</p>
-                    <p>The Hermitage Hotel is located adjacent to Sir Edmund Hillary Alpine Centre and just 350 m from Aoraki Mount Cook National Park Visitor Centre. Lake Tekapo is 104 km away and Twizel is 65 km away.</p>
-                    <p>Guests enjoy free private onsite parking. Other facilities offered at the hotel include a 24 hour reception and a tour desk to organise local activities for you. There are also business facilities, laundry services and babysitting on offer.</p>
-                    <p><a class="text-link" href="http://www.booking.com/Share-BBJYEb" target="_blank">Book here</a></p>
-                
-                <div class="container-inrow">
-                    <img style= "height: 400px" class="image-attractions" src="../images/86887705.jpg" />
-                    <figcaption style= "padding-left: 180px">booking.com</figcaption>
-                </div>
-            </div>
+      <div class="w3-row w3-padding-16">
+        <div class="w3-twothird w3-container">
+          <h2 class="w3-text-teal"><span class="text-marker">C.</span> The Hermitage Hotel</h2>
+            <img class="stars" src="../images/Star_rating_4_of_5.png" alt="4 out of 5 stars" />
+              <p>Set in Mount Cook National Park, The Hermitage Hotel features a range of rooms and suites all offering majestic mountain views, and most with views of Mount Cook. Guests can enjoy a range of onsite dining and bars, and free WiFi is offered in the Snowline Lounge and Sir Edmund Hillary Cafe.</p>                    
+              <p>All rooms feature an ensuite bathroom including a shower, free toiletries and hairdryer. Some rooms offer a bath tub. Also included in each room is a satellite flat-screen TV, refrigerator and tea and coffee making facilities. In-room WiFi is available for an additional charge.</p>
+              <p>The Hermitage Hotel is located adjacent to Sir Edmund Hillary Alpine Centre and just 350 m from Aoraki Mount Cook National Park Visitor Centre. Lake Tekapo is 104 km away and Twizel is 65 km away.</p>
+              <p>Guests enjoy free private onsite parking. Other facilities offered at the hotel include a 24 hour reception and a tour desk to organise local activities for you. There are also business facilities, laundry services and babysitting on offer.</p>
+              <p><a class="text-link" href="http://www.booking.com/Share-BBJYEb" target="_blank">Book here</a></p>
+          <figure class="container-inrow">
+            <img style= "height: 400px" class="image-attractions" src="../images/86887705.jpg" alt="front of Hermitage building" />
+            <figcaption style= "padding-left: 180px">booking.com</figcaption>
+          </figure>
         </div>
+      </div>
     </div>
 
-        <div class="sidenav-right"><img class="sideimage" src="../images/mt-cook-narrow.jpg"/></div>
+    <!--right nav image-->
+    <div class="sidenav-right"><img class="sideimage" src="../images/mt-cook-narrow.jpg" alt="road going towards mountain" /></div>
 
-    </div>
+  </div>
 
   
 
