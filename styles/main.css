@@ -63,13 +63,11 @@ body, html{
     display:inline-block;
     background-size: cover;
     background-position: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0;
+    padding: 10px;
 }
 .image-inrow {
     height: 220px;
-    padding: 5px;
-    
 }
 .image-inrow2 {
     height: 300px;
